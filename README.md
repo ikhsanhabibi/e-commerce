@@ -2,3 +2,18 @@
 
 - yarn install
 - yarn start
+
+# The structure
+
+Components
+
+- directory
+- menu-item
+- shop
+- collection-preview
+- collection-item
+
+Pages
+
+- homepage
+- shop (SHOP_DATA)
