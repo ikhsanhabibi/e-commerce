@@ -1,6 +1,6 @@
 import React from "react";
 
-import SHOP_DATA from "../../pages/shop/shop.js";
+import SHOP_DATA from "../../pages/shop-data/shop-data.js";
 
 import CollectionPreview from "../collection-preview/collection-preview.component";
 
@@ -18,7 +18,7 @@ class ShopPage extends React.Component {
             key={id}
             {...otherCollectionProps}
           ></CollectionPreview>
-        )) }
+        ))}
       </div>
     );
   }
