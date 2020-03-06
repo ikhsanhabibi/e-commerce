@@ -31,7 +31,8 @@ Pages (static, no state exchange)
 - prpop drilling/tunneling = passing prop into children
 - withRouter (High Order Component) => have access to related to router (parent to child)
 - @mixin reusable css in scss (e.g shrinkLabel)
-- Firebase (Auth)
+- Firebase (Auth, Firestore(collection, document, snapshot))
+- Async function => potential API request
 
 # StackOverFlow
 
