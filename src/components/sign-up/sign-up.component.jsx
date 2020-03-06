@@ -43,6 +43,7 @@ class SignUp extends React.Component {
         password: "",
         confirmPassword: ""
       });
+      alert("Acoount created");
     } catch (error) {
       console.error(error);
     }
