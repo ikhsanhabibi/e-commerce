@@ -40,6 +40,7 @@ Redux(Reducer)
 - Redux (Action-Middleware-Reducer-Store-View) : unidirectional, single point of the truth
 - Reducer is fucntion/dispatcher
 - Middleware is used for debugging
+- connect() is HOC (function that returns sub component)
 
 # StackOverFlow
 

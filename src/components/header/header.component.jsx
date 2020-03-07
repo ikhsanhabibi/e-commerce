@@ -4,6 +4,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 
 import "./header.styles.scss";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
 import { auth } from "../../firebase/firebase.utils";
 
@@ -26,9 +27,7 @@ const Header = ({ currentUser }) => (
         <div className="option">
           <DropdownButton
             alignRight
-            title={
-              "HELLO " + currentUser.displayName.split(" ")[0].toUpperCase()
-            }
+            title={"HELLO "}
             id="dropdown-menu-align-right"
           >
             <Dropdown.Item eventKey="1">DASHBOARD</Dropdown.Item>
@@ -47,4 +46,8 @@ const Header = ({ currentUser }) => (
   </div>
 );
 
-export default Header;
+const mapStatetoProps = state => ({
+  currentUser: state.user.currentUser
+});
+
+export default connect(mapStatetoProps)(Header);
