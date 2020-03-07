@@ -24,6 +24,10 @@ Pages (static, no state exchange)
 - shop-data (SHOP_DATA)
 - sign-in-and-sign-up
 
+Redux(Reducer)
+
+- user
+
 # Notes
 
 - functional component => no state
@@ -33,6 +37,9 @@ Pages (static, no state exchange)
 - @mixin reusable css in scss (e.g shrinkLabel)
 - Firebase (Auth, Firestore(collection, document, snapshot))
 - Async function => potential API request
+- Redux (Action-Middleware-Reducer-Store-View) : unidirectional, single point of the truth
+- Reducer is fucntion/dispatcher
+- Middleware is used for debugging
 
 # StackOverFlow
 
@@ -40,3 +47,4 @@ Pages (static, no state exchange)
 - Google Sign-In : https://firebase.google.com/docs/auth/web/google-signin?authuser=0#popup-mode
 - onAuthStateChanged : https://firebase.google.com/docs/reference/js/firebase.auth.Auth#onauthstatechanged
 - Dropdown : https://react-bootstrap.github.io/components/dropdowns/
+- Logger : https://www.npmjs.com/package/redux-logger
