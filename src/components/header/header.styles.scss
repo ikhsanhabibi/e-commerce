@@ -24,8 +24,10 @@
       text-decoration: none;
 
       .btn-primary {
-        background-color: gray;
+        background-color: transparent;
         border: none;
+        color: black;
+        text-transform: uppercase;
       }
     }
   }

@@ -17,6 +17,8 @@ Components (reusable)
 - custom-button
 - firebase (READ DOCS)
 - header (Dropdown, Link)
+- cart-icon
+- cart-dropdown
 
 Pages (static, no state exchange)
 
@@ -26,6 +28,8 @@ Pages (static, no state exchange)
 
 Redux(Reducer)
 
+- root
+- store
 - user
 
 # Notes
