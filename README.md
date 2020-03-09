@@ -55,3 +55,4 @@ Redux(Reducer)
 - onAuthStateChanged : https://firebase.google.com/docs/reference/js/firebase.auth.Auth#onauthstatechanged
 - Dropdown : https://react-bootstrap.github.io/components/dropdowns/
 - Logger : https://www.npmjs.com/package/redux-logger
+- reselect lib : https://www.npmjs.com/package/reselect
