@@ -19,6 +19,7 @@ Components (reusable)
 - header (Dropdown, Link)
 - cart-icon
 - cart-dropdown
+- cart-item
 
 Pages (static, no state exchange)
 
@@ -31,6 +32,7 @@ Redux(Reducer)
 - root
 - store
 - user
+- cart (cart-utils)
 
 # Notes
 
