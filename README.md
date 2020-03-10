@@ -26,6 +26,7 @@ Pages (static, no state exchange)
 - homepage
 - shop-data (SHOP_DATA)
 - sign-in-and-sign-up
+- checkout
 
 Redux(Reducer)
 
@@ -47,6 +48,8 @@ Redux(Reducer)
 - Reducer is fucntion/dispatcher
 - Middleware is used for debugging
 - connect() is HOC (function that returns sub component)
+- reselect : library for creating memoized, composable selector functions.The functions will take Redux state as an argument and return some data to pass to the component.
+- extensible code : KISS (Keep It Simple and Stupid), anybody can read
 
 # StackOverFlow
 
@@ -56,3 +59,8 @@ Redux(Reducer)
 - Dropdown : https://react-bootstrap.github.io/components/dropdowns/
 - Logger : https://www.npmjs.com/package/redux-logger
 - reselect lib : https://www.npmjs.com/package/reselect
+- UTF-8 icons: https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+
+# MUST RE READ
+
+- add, remove, clear : action functions in redux (cart)
