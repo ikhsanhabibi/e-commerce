@@ -55,6 +55,8 @@ Redux(Reducer)
 - reselect : library for creating memoized, composable selector functions.The functions will take Redux state as an argument and return some data to pass to the component.
 - extensible code : KISS (Keep It Simple and Stupid), anybody can read
 - persistance & storage : sessionStorage vs localStorage => persist the state in application, the data will be the same, after refresh the web app
+- add stripe payment button
+- deploying to heroku
 
 # StackOverFlow
 
@@ -67,7 +69,21 @@ Redux(Reducer)
 - UTF-8 icons: https://www.w3schools.com/charsets/ref_utf_dingbats.asp
 - redux-persist : https://www.npmjs.com/package/redux-persist
 - react-stripe-checkout : https://www.npmjs.com/package/react-stripe-checkout
+- buildpack mars/create-react-app : Heroku Buildpack for create-react-app (static hosting for React.js web apps)
 
 # MUST RE READ
 
 - add, remove, clear : action functions in redux (cart)
+
+# HEROKU DEPLOYMENT
+
+- heroku apps (check existing repo)
+- heroku keys:add (add ssh key)
+
+* git init
+* git remote rm heroku
+* git remote add heroku https://git.heroku.com/appname.git
+
+* heroku create \$APP_NAME --buildpack mars/create-react-app
+* heroku buildpacks:clear (if failed to push to master)
+* git push heroku master
