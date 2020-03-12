@@ -20,11 +20,12 @@ Components (reusable)
 - cart-icon
 - cart-dropdown
 - cart-item
+- collection
 
 Pages (static, no state exchange)
 
 - homepage
-- shop-data (SHOP_DATA)
+- shop-data (SHOP_DATA) => moved into shop redux
 - sign-in-and-sign-up
 - checkout
 
@@ -34,22 +35,25 @@ Redux(Reducer)
 - store
 - user
 - cart (cart-utils)
+- directory
+- shop
 
 # Notes
 
 - functional component => no state
 - class component => there is state
-- prpop drilling/tunneling = passing prop into children
+- prop drilling/tunneling = passing prop into children
 - withRouter (High Order Component) => have access to related to router (parent to child)
 - @mixin reusable css in scss (e.g shrinkLabel)
 - Firebase (Auth, Firestore(collection, document, snapshot))
 - Async function => potential API request
 - Redux (Action-Middleware-Reducer-Store-View) : unidirectional, single point of the truth
-- Reducer is fucntion/dispatcher
+- Reducer is function/dispatcher
 - Middleware is used for debugging
-- connect() is HOC (function that returns sub component)
+- connect() is HOC (function that returns sub component) => connect(mapStateToProps, mapDispatchToProps)
 - reselect : library for creating memoized, composable selector functions.The functions will take Redux state as an argument and return some data to pass to the component.
 - extensible code : KISS (Keep It Simple and Stupid), anybody can read
+- persistance & storage : sessionStorage vs localStorage => persist the state in application, the data will be the same, after refresh the web app
 
 # StackOverFlow
 
@@ -60,6 +64,7 @@ Redux(Reducer)
 - Logger : https://www.npmjs.com/package/redux-logger
 - reselect lib : https://www.npmjs.com/package/reselect
 - UTF-8 icons: https://www.w3schools.com/charsets/ref_utf_dingbats.asp
+- redux-persist : https://www.npmjs.com/package/redux-persist
 
 # MUST RE READ
 
