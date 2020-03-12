@@ -21,6 +21,7 @@ Components (reusable)
 - cart-dropdown
 - cart-item
 - collection
+- stripe-button
 
 Pages (static, no state exchange)
 
@@ -65,6 +66,7 @@ Redux(Reducer)
 - reselect lib : https://www.npmjs.com/package/reselect
 - UTF-8 icons: https://www.w3schools.com/charsets/ref_utf_dingbats.asp
 - redux-persist : https://www.npmjs.com/package/redux-persist
+- react-stripe-checkout : https://www.npmjs.com/package/react-stripe-checkout
 
 # MUST RE READ
 
