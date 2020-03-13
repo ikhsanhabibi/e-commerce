@@ -85,5 +85,6 @@ Redux(Reducer)
 * git remote add heroku https://git.heroku.com/appname.git
 
 * heroku create \$APP_NAME --buildpack mars/create-react-app
+* heroku create ikhsanhabibi-crown-shop --buildpack https://github.com/mars/create-react-app-buildpack.git
 * heroku buildpacks:clear (if failed to push to master)
 * git push heroku master
