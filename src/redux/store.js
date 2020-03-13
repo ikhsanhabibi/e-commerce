@@ -1,15 +1,14 @@
 import { createStore, applyMiddleware } from "redux";
 import { persistStore } from "redux-persist";
+import logger from "redux-logger";
 
 import rootReducer from "./root-reducer";
 
 const middlewares = [];
 
 if (process.env.NODE_ENV === `development`) {
-  const { logger } = require(`redux-logger`);
   middlewares.push(logger);
-} else {
-  console.log("prod");
+  console.log(process.env.NODE_ENV);
 }
 
 export const store = createStore(rootReducer, applyMiddleware(...middlewares));
