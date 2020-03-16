@@ -2,6 +2,7 @@ import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { Link } from "react-router-dom";
+
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
@@ -40,7 +41,12 @@ const Header = ({ currentUser, hidden }) => (
             title={"HELLO " + getFirstName(currentUser.displayName) + "!"}
             id="dropdown-menu-align-right"
           >
-            <Dropdown.Item eventKey="1">DASHBOARD</Dropdown.Item>
+            <Dropdown.Item
+              eventKey="1"
+              onClick={() => alert("under development")}
+            >
+              DASHBOARD
+            </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item eventKey="2" onClick={() => auth.signOut()}>
               SIGN OUT

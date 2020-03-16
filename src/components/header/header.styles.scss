@@ -22,12 +22,10 @@
       padding: 10px 15px;
       cursor: pointer;
       text-decoration: none;
-
-      .btn-primary {
-        background-color: transparent;
-        border: none;
+      &:hover {
+        border: 1px solid black;
+        text-decoration: none;
         color: black;
-        text-transform: uppercase;
       }
     }
   }

@@ -57,6 +57,7 @@ Redux(Reducer)
 - persistance & storage : sessionStorage vs localStorage => persist the state in application, the data will be the same, after refresh the web app
 - add stripe payment button
 - deploying to heroku
+- styled component : CSS in JavaScript
 
 # StackOverFlow
 
@@ -70,6 +71,7 @@ Redux(Reducer)
 - redux-persist : https://www.npmjs.com/package/redux-persist
 - react-stripe-checkout : https://www.npmjs.com/package/react-stripe-checkout
 - buildpack mars/create-react-app : Heroku Buildpack for create-react-app (static hosting for React.js web apps)
+- styled-components : https://github.com/styled-components/styled-components
 
 # MUST RE READ
 
