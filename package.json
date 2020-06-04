@@ -2,6 +2,9 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.16"
+  },
   "dependencies": {
     "firebase": "^7.10.0",
     "gh-pages": "^2.2.0",
